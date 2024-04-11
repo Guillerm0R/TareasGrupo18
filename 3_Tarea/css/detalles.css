@@ -1,0 +1,15 @@
+.Bordeuno{
+    border: aquamarine solid;
+}
+.Bordedos{
+    border: solid rgb(255, 130, 84);
+}
+span{
+    color: blue;
+}
+p{
+    background-color: rgba(129, 129, 255, 0.822);
+}
+.color{
+    color: red;
+}

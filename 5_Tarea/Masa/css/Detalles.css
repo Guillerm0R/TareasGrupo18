@@ -1,0 +1,72 @@
+header{
+   text-align: center;
+   color: #152028;
+   text-shadow: 4px 4px  9px white;
+   font-family: "Grand sport", Verdana, Tahoma, sans-serif;
+   font-size: 24px;
+
+}
+body{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+    background: linear-gradient(35deg,#152028, #324052, #9599a2, #ee2930, #83161a);
+	background-size: 400% 400%;
+	position: relative;
+	animation: cambiar 9s ease-in-out infinite;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+@font-face {
+    font-family: Grand sport;
+    src: url(fonts/grandsporttitleital.ttf);
+}
+@font-face{
+    font-family: Race sport;
+    src: url(fonts/Race\ Sport.ttf);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 2.8% 2.5%;
+    border-radius: 15px;
+    overflow: hidden;
+    border-style: solid;
+    border: #83161a outset; 
+}
+
+.img1{
+    width: 250px;
+    height: 160px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 35%;
+}
+.img2{
+    width: 250px;
+    height: 160px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 35%;
+}
+.img3{
+    width: 250px;
+    height: 160px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 35%;
+}
+.img4{
+    width: 250px;
+    height: 160px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 35%;
+}
+div{
+    text-align: center;
+    font-family: "Race sport", Verdana, Tahoma, sans-serif;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="css/detalles.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h2>Formulario de registro</h2>
+            <form action="mostrar_registros.html" method="get" target="_blank">
+                <fieldset class="Bordeuno">
+                    <legend>Datos Personales</legend>
+                    <label for="Nombre">Nombre:</label>
+                    <input size="30" type="text" name="Nombre" placeholder="Ingrese su nombre aqui...">
+                    <label for="Apellido">Apellido:</label>
+                    <input size="30" type="text" name="Apellido" placeholder="Ingrese su apellido aqui...">
+                    <br><br>
+                    <label for="Direccion">Direccion:</label>
+                    <input size="25" type="text" name="Direccion" placeholder="Ingrese su dirección aqui...">
+                    <label for="Ciudad">Ciudad:</label>
+                    <input type="text" size="25" name="Ciudad" placeholder="Ej C.A.B.A">
+                    <br><br>
+                    <label for="Codigo Postal">Codigo Postal:</label>
+                    <input type="text" name="CodigoPostal" placeholder="Ingrese C.P aqui...">
+                    <label for="Telefono">Telefono:</label>
+                    <input type="tel" name="Telefono" placeholder="Ingrese su Numero aqui...">
+                    <br><br>
+                    <label for="FechaNac">Fecha Nac.(dd/mm/aa)</label>
+                    <input type="date" name="FechaNac">
+                    <p>Género (Radio)
+                        <input type="radio" name="Genero" value="hombre" checked>Hombre
+                        <input type="radio" name="Genero" value="Mujer">Mujer
+                        <input type="radio" name="Genero" value="Otro"> Otro
+                    </p>
+                </fieldset>
+                <fieldset class="Bordedos">
+                    <legend>Conocimientos previos</legend>
+                    <p class="color">Checkbox</p>
+                    <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                    <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                    <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+                    <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                    <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+                    <input type="checkbox" name="conocimientos" value="Python"> Python
+                    <input type="checkbox" name="conocimientos" value="Django"> Django
+                    <br><br>
+                    <label for="Estudios">Estudios: (Selec)</label>
+                    <select id="estudios" name="estudios">
+                        <option value="primaria">Primaria</option>
+                        <option value="secundaria">Secundaria</option>
+                        <option value="terciario">Terciario</option>
+                        <option value="universitario">Universitario</option>
+                    </select>
+                    <br>
+                    <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="5" cols="30"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer><center><i> <span>Codo</span> a <span>Codo</span> 2024</i></center></footer>
+</body>
+</html>
