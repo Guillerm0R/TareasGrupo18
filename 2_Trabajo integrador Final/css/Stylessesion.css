@@ -1,0 +1,55 @@
+header{
+    font-family: RickandMorty,Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+@font-face{
+    font-family: RickandMorty;
+    src: url(../assets/fonts/shloprg.otf);
+}
+body{
+    background-color: #82b99f;
+}
+
+#personajes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+#personajes div {
+    text-align: center;
+    border: 1px solid #0d6e00;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4c9774;
+    font-family: RickandMorty,Verdana, Tahoma, sans-serif;
+}
+
+#personajes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.custom-shape-divider-top-1717879979 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1717879979 svg {
+    position: relative;
+    display: block;
+    width: calc(106% + 1.3px);
+    height: 136px;
+}
+
+.custom-shape-divider-top-1717879979 .shape-fill {
+    fill: #009450;
+}

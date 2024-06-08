@@ -25,6 +25,6 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
      
     if (valid) {
-        this.submit();
+        window.location.href = "../pages/sesioniniciada.html";
     }
 });
