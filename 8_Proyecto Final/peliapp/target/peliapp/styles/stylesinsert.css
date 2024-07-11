@@ -1,0 +1,60 @@
+body {
+       color: white;
+       background: linear-gradient(to right top, #0000008a, #0000008a), url(../assets/img/—Pngtree—an\ old\ bookcase\ in\ a_2760144.jpg); /* Fondo con gradiente y imagen de fondo */
+       background-size: cover; 
+       background-position: center;
+       height: 90vh;
+     }
+     
+ 
+     header {
+       background-color: #44444442; 
+       color: #fff; 
+       width: 100%; 
+       padding: 1em 0; 
+       text-align: center; 
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+     }
+     header h1 {
+       margin: 0;
+     }
+ .insert-button {
+        display: inline-block;
+       background-color: #ff00009d;
+       color: #ffffff;
+        border-radius: 4px;
+       text-align: center;
+       border: 1px solid rgb(0, 0, 0);
+       box-sizing: content-box;
+       margin-top:50px;
+       margin-left:20px;
+       padding: 1rem 1rem;
+       border-radius: 5px;
+       font-size: 1rem;
+       font-weight: 500;
+       text-decoration: none;
+       margin-bottom:60px;
+       transition: transform 0.3s, box-shadow 0.3s;
+       &:hover {
+              background-color: #000000;
+              transform: scale(0.95);
+              box-shadow: 0 0 10px rgb(255, 0, 0);
+       }
+}
+.secForm{
+       display: flex; 
+       justify-content: center; 
+       align-items: center; 
+}
+.conteiner{
+       background-color: rgba(94, 93, 93, 0.39); 
+       color: black; 
+       width: 80%; 
+       border-radius: 8px; 
+       max-width: 600px; 
+       padding: 20px; 
+       text-align: left; 
+}
+.secBoton{
+       text-align: center;   
+}
